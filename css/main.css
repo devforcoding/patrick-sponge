@@ -1,5 +1,88 @@
-svg {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
+body {
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper__item {
+    width: 300px;
+    text-align: center;
+}
+
+.eyes__left,
+.eyes__right {
+    fill:#ffffff;
+    fill-opacity:1;
+    fill-rule:evenodd;
+    stroke:#000000;
+    stroke-width:2;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+}
+
+.eyes__right {
+    fill: red;
+    fill-opacity: 0.5;
+}
+
+.eyes__pupil {
+    fill:#000000;
+    fill-opacity:1;
+    fill-rule:evenodd;
+    stroke:none;
+}
+
+.eyes__eyebrows {
+    fill:#000000;
+    stroke:none;
+}
+
+
+.surprised__shadow {
+    fill: lightgray;
+}
+
+.surprised__body {
+    fill: gold;
+}
+
+.surprised__eye {
+    fill: white;
+}
+
+.surprised__pupil {
+    fill: black;
+}
+
+.surprised__mouth {
+    fill: crimson;
+}
+
+.patrick-mouth-group {
+    display:inline;
+}
+
+.patrick-mouth {
+    fill:#7d0b01;
+    fill-opacity:1;
+    stroke:none;
+}
+
+.patrick-tongue {
+    fill:#ffd700;
+    fill-opacity:1;
+    stroke:#a91827;
+    stroke-width:1.5;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none;
 }
